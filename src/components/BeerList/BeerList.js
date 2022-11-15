@@ -20,7 +20,7 @@ function BeerList() {
 
     const renderBeers = beers.map((beer)=>{
         return(
-            <Link to="/beerDetails/:beerId" key={beer._id}>
+            <Link to={`/${beer._id}`} key={beer._id}>
             <Col key={beer._id}>
             <div className="card">
                 <img src={beer.image_url} alt="" style={{height:"100px"}} />

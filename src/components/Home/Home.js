@@ -16,7 +16,7 @@ function Home()
             <h3>bla bla bla</h3>
         </div>
         <div className="card">
-            <Link to="/newBeer"><img src={newbeer} alt=""/><p>New Beer</p></Link>
+            <Link to="/new-beer"><img src={newbeer} alt=""/><p>New Beer</p></Link>
             <h3>bla bla bla</h3>
         </div>
         </div>

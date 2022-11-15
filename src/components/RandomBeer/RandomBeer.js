@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Card, Container, Row, Col, Spinner } from "react-bootstrap";
+import { Card, Container, Row, Col} from "react-bootstrap";
 import axios from "axios";
 import NavBar from '../NavBar/NavBar';
 
